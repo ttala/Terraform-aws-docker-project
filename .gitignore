@@ -1,0 +1,5 @@
+backend.tf
+vars.tf
+*.hcl
+*.tfstate
+*.backup
