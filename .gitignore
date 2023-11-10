@@ -3,4 +3,4 @@ vars.tf
 *.hcl
 *.tfstate
 *.backup
-\.terraform
+.terraform/
