@@ -15,6 +15,8 @@ Navigate to the project directory.
 Run the command terraform init to initialize Terraform and download the required providers.  
 Run the command terraform apply to create the resources on AWS.  
 After confirming that the application is running, remember to execute 'terraform destroy' to deprovision the infrastructure on AWS and avoid incurring extra charges.  
+![image](https://github.com/ttala/Terraform-aws-docker-project/assets/42340621/9a547605-41d0-414c-b491-1c7e1a68082f)
+
 
 # Acknowledgements
 The game app code used in this project has been taken from [gabrielecirulli](https://github.com/gabrielecirulli) repository.
