@@ -5,16 +5,17 @@ In this project I have set up a configuration to deploy a web game application u
 ![image](https://github.com/ttala/Terraform-aws-docker-project/assets/42340621/ce407110-0ab6-47cf-9d33-8e4cf42ab8f3)
 
 # Prerequisites
-AWS account with required access and permissions to deploy resources.  
-AWS CLI.  
+AWS account.  
+AWS CLI with required access and permissions to deploy resources.  
 Terraform.  
 
 # Installation 
 Clone this repository to your local machine.  
 Navigate to the project directory.  
-Run the command terraform init to initialize Terraform and download the required providers.  
-Run the command terraform apply to create the resources on AWS.  
-After confirming that the application is running, remember to execute 'terraform destroy' to deprovision the infrastructure on AWS and avoid incurring extra charges.    
+Update the **vars.tf** with your variables.
+Run the command **terraform init** to initialize Terraform and download the required providers.  
+Run the command **terraform apply** to create the resources on AWS.  
+After confirming that the application is running, remember to execute **terraform destroy** to deprovision the infrastructure on AWS and avoid incurring extra charges.    
 
 ![image](https://github.com/ttala/Terraform-aws-docker-project/assets/42340621/1a3d6495-eb0e-450b-8294-92da066a6d6c)
 
